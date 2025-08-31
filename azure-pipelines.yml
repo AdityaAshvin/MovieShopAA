@@ -39,3 +39,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: AzureWebApp@1
+  displayName: 'Deploy to App Service'
+  inputs:
+    azureSubscription: 'Azure for Students(657b5b3f-66c5-4968-9779-8ceacaf208ba)'
+    appType: 'webApp'
+    appName: 'movieshopAA'
+    package: '$(Build.ArtifactStagingDirectory)/**'
