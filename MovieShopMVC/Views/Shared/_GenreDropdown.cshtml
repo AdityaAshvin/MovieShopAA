@@ -1,0 +1,23 @@
+﻿@using ApplicationCore.Models
+@inject ApplicationCore.Contracts.Services.IGenreService GenreService
+
+@{
+    // pull genres here so the partial doesn't rely on the page's Model
+    var genres = GenreService.GetAllGenres(); // List<GenreModel>
+}
+
+
+
+<li>
+    <a class="dropdown-item text-decoration-none"
+       asp-controller="Movies" asp-action="Index">
+        Any
+    </a>
+    @foreach (var genre in genres)
+    {
+            <a class="dropdown-item text-decoration-none"
+               asp-controller="Genre" asp-action="Index" asp-route-id="@genre.Id">
+                @genre.Name
+            </a>
+    }
+</li>

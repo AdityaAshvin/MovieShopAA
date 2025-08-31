@@ -1,0 +1,115 @@
+﻿@model ApplicationCore.Models.MovieDetailsModel;
+
+<div class="container position-relative mt-2">
+    <div style="
+      background:url('@Model.BackdropUrl');
+      background-size: cover;
+      background-position: center;
+      filter: blur(2px) brightness(0.5);
+      position:absolute; inset:0;
+      z-index:1;">
+    </div>
+    <div class="row position-relative text-white p-3 pe-2" style="z-index: 2">
+        <div class="col-md-4">
+            <img src="@Model.PosterUrl" alt="@Model.Title" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6" style="z-index: 2">
+            <h1>@Model.Title</h1>
+            <h5> @Model.Tagline </h5>
+            <p>
+                <span class="me-5"> @Model.Runtime m | @Model.ReleaseYear </span>
+                @foreach(var genre in Model.Genres)
+                {
+                    <a asp-controller="Genre" asp-action="Index" asp-route-id="@genre.Id" class="btn btn-sm btn-dark text-white rounded-5"> @genre.Name
+                    </a>
+                }
+            </p>
+            <p class="mt-3">
+                @Model.Overview
+            </p>
+            <!--
+            <p>
+                <strong>Budget: </strong> @Model.Budget;
+                <strong>Revenue: </strong> @Model.Revenue;
+            </p>
+            <div class="mt-3">
+                <a class="btn btn-primary" asp-action="Edit" asp-controller="Movies" asp-route-id="@Model.Id">
+                        Edit   
+                </a>
+                <form method="post" asp-action="DeleteMovie" asp-controller="Movies" asp-route-id="@Model.Id">
+                    <button type="submit" class="btn btn-danger mt-2" onclick="return confirm('Are you sure you want to delete the movie?');">Delete</button>
+                </form>
+            </div>
+            -->
+        </div>
+        <div class="col-md-2 mt-5">
+            <div class="d-grid gap-3">
+                <button type="button" class="btn btn-outline-light text-white pe-3 ps-3"> <i class="fa-regular fa-pen-to-square"></i> REVIEW</button>
+            <button type="button" class="btn btn-light btn-outline-light text-black pe-3 ps-3 mt-3">BUY $9.99</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mt-3 me-3" style="background-color: #f7f9fa">
+            <h4 class="mt-3 mb-3">MOVIE FACTS</h4>
+            <p><i class="fa-solid fa-calendar-days"></i> Release Date <button class="btn btn-sm btn-dark text-white rounded-5">@Model.ReleaseDate?.ToString("MMM dd, yyyy")</button>
+            </p>
+            <hr />
+            <p>
+                <i class="bi bi-hourglass-split"></i> Run Time <button class="btn btn-sm btn-dark text-white rounded-5">@Model.Runtime m</button>
+            </p>
+            <hr />
+            <p>
+                <i class="fa-solid fa-money-bill"></i> Box Office <button class="btn btn-sm btn-dark text-white rounded-5">$ @Model.Revenue</button>
+            </p>
+            <hr />
+            <p>
+                <i class="fa-solid fa-dollar-sign"></i> Budget <button class="btn btn-sm btn-dark text-white rounded-5">$ @Model.Budget</button>
+            </p>
+            <hr />
+            <a href ="@Model.ImdbURL" target="_blank" style="text-decoration: none" class="text-black me-2">
+            <i class="fab fa-imdb" style="font-size: 2rem;"></i></a>
+            <a href="@Model.TmdbURL" target="_blank" style="text-decoration: none" class="text-black">
+            <i class="bi bi-box-arrow-up-right" style="font-size: 1.5rem;"></i>
+            </a>
+
+           <h4 class="mt-3">TRAILERS</h4>
+           @foreach(var trailer in Model.Trailers)
+           {
+            <a href="@trailer.TrailerUrl" target="_blank" style="text-decoration: none" class="text-black">
+            <i class="fa-brands fa-youtube" style="font-size: 2rem"></i> @trailer.Name
+            </a>
+            <hr />
+           }
+
+        </div>
+        <div class="col-md-7 mt-3">
+            <h4 class="mt-3">CAST</h4>
+            @foreach (var actor in Model.Casts)
+            {
+                <a asp-controller="Actor" asp-action="Index" asp-route-id="@actor.Id" class="text-decoration-none text-black">
+                <div class="card border-0 border-bottom border-top">
+                    <div class="row g-0">
+                    <div class="col-md-4 text-center">
+                        <img src="@actor.ProfilePath" class="img-fluid w-25 pt-2 pb-2 rounded-circle" alt="Card image">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <p><strong>@actor.Name</strong></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <p>@actor.Character</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿using ApplicationCore.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApplicationCore.Contracts.Services
+{
+    public interface IGenreService
+    {
+        List<GenreModel> GetAllGenres();
+        List<MovieCardModel> GetMoviesByGenre(int id);
+        GenreModel GetGenreById(int id);
+    }
+}

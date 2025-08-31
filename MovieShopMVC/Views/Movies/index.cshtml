@@ -1,0 +1,68 @@
+﻿@using ApplicationCore.Models
+@model IEnumerable<ApplicationCore.Models.MovieCardModel>
+
+<h2 class="mb-3 text-center">All Latest Movies</h2>
+
+<div class="rounded">
+    <div class="container-fluid">
+        <div class="row">
+            @foreach (var movie in Model)
+            {
+                <partial name="_MovieCard" model="movie" />
+            }
+        </div>
+    </div>
+</div>
+
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-start">
+
+        <!-- Previous -->
+        <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link"
+               asp-action="Index"
+               asp-route-id="@ViewBag.GenreId"
+               asp-route-page="@(ViewBag.CurrentPage - 1)"
+               aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+
+        @* Calculate window *@
+        @{
+            int totalPages = ViewBag.TotalPages;
+            int current = ViewBag.CurrentPage;
+            int window = 5; // max numbers to display
+            int start = Math.Max(1, current - window / 2);
+            int end = Math.Min(totalPages, start + window - 1);
+
+            // adjust start if we don't have enough pages at the end
+            if (end - start < window - 1)
+            {
+                start = Math.Max(1, end - window + 1);
+            }
+        }
+
+        @for (int i = start; i <= end; i++)
+        {
+            <li class="page-item @(i == current ? "active" : "")">
+                <a class="page-link"
+                   asp-action="Index"
+                   asp-route-id="@ViewBag.GenreId"
+                   asp-route-page="@i">@i</a>
+            </li>
+        }
+
+        <!-- Next -->
+        <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+            <a class="page-link"
+               asp-action="Index"
+               asp-route-id="@ViewBag.GenreId"
+               asp-route-page="@(ViewBag.CurrentPage + 1)"
+               aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+
+    </ul>
+</nav>
