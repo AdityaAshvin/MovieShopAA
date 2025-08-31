@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adity\\source\\repos\\MovieShop\\MovieShopMVC\\MovieShopMVC.csproj": {}
+    "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\MovieShopMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adity\\source\\repos\\MovieShop\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adity\\source\\repos\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\adity\\source\\repos\\MovieShop\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adity\\source\\repos\\MovieShop\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\adity\\source\\repos\\MovieShop\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\adity\\source\\repos\\MovieShop\\MovieShopMVC\\MovieShopMVC.csproj": {
+    "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\MovieShopMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adity\\source\\repos\\MovieShop\\MovieShopMVC\\MovieShopMVC.csproj",
+        "projectUniqueName": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\MovieShopMVC.csproj",
         "projectName": "MovieShopMVC",
-        "projectPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\MovieShopMVC\\MovieShopMVC.csproj",
+        "projectPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\MovieShopMVC.csproj",
         "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\MovieShopMVC\\obj\\",
+        "outputPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,8 +178,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\adity\\source\\repos\\MovieShop\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\adity\\source\\repos\\MovieShop\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

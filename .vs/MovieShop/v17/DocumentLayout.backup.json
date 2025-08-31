@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adity\\Documents\\MovieShopAA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\ActorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T20:47:37.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Actor\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Actor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Actor\\Index.cshtml",
+              "RelativeToolTip": "MovieShopMVC\\Views\\Actor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T20:46:26.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
