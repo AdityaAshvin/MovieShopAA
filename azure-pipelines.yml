@@ -10,6 +10,7 @@ variables:
   buildConfiguration: 'Release'
   solution: 'MovieShop.sln' 
   publishProject: 'MovieShopMVC/MovieShopMVC.csproj'
+  AzureServiceConnection: 'AshvinServerConn'
 
 steps:
 # 1. Install .NET SDK
@@ -57,7 +58,7 @@ steps:
 - task: AzureWebApp@1
   displayName: 'Deploy to Azure App Service'
   inputs:
-    azureSubscription: 'AshvinServerConn'
+    azureSubscription: '$(AzureServiceConnection)'
     appType: 'webApp'
     appName: 'movieshopAA'
     package: '$(Build.ArtifactStagingDirectory)/webapp.zip'
