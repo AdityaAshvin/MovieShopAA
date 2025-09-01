@@ -53,12 +53,3 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/webapp.zip'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-
-# 8. Deploy to Azure App Service
-- task: AzureWebApp@1
-  displayName: 'Deploy to Azure App Service'
-  inputs:
-    azureSubscription: '$(AzureServiceConnection)'
-    appType: 'webApp'
-    appName: 'movieshopAA'
-    package: '$(Build.ArtifactStagingDirectory)/webapp.zip'
