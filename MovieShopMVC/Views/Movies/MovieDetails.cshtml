@@ -80,7 +80,7 @@
            @foreach(var trailer in Model.Trailers)
            {
             <a href="@trailer.TrailerUrl" target="_blank" style="text-decoration: none" class="text-black">
-            <i class="fa-brands fa-youtube" style="font-size: 2rem"></i> @trailer.Name
+            <i class="fa-brands fa-youtube mt-2" style="font-size: 2rem"></i> @trailer.Name
             </a>
             <hr />
            }
@@ -92,7 +92,7 @@
             {
                 <a asp-controller="Actor" asp-action="Index" asp-route-id="@actor.Id" class="text-decoration-none text-black">
                 <div class="card border-0 border-bottom border-top">
-                    <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                     <div class="col-md-4 text-center">
                         <img src="@actor.ProfilePath" class="img-fluid w-25 pt-2 pb-2 rounded-circle" alt="Card image">
                     </div>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card-body">
-                            <p>@actor.Character</p>
+                            <p class="text-muted"> @actor.Character</p>
                         </div>
                     </div>
                 </div>
