@@ -13,7 +13,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  solution: '**/*.sln'
+  solution: 'MovieShop.sln' 
   publishProject: 'MovieShopMVC/MovieShopMVC.csproj'
 
 steps:
