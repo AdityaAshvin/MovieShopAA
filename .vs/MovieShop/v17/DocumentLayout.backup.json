@@ -7,8 +7,88 @@
       "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\views\\movies\\moviedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\movies\\moviedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\models\\actormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\actormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|c:\\users\\adity\\documents\\movieshopaa\\infrastructure\\repositories\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|c:\\users\\adity\\documents\\movieshopaa\\infrastructure\\services\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\contracts\\repositories\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repositories\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\contracts\\services\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|c:\\users\\adity\\documents\\movieshopaa\\infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\contracts\\repositories\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repositories\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\contracts\\services\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|c:\\users\\adity\\documents\\movieshopaa\\infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\adity\\documents\\movieshopaa\\applicationcore\\contracts\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95276836-41CC-4716-BECE-1FD17303FEBD}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|c:\\users\\adity\\documents\\movieshopaa\\infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|c:\\users\\adity\\documents\\movieshopaa\\infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C698B10-44EC-417C-BE4B-3F893B007ED8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\adity\\documents\\movieshopaa\\movieshopmvc\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{946FCFA9-AFAD-4063-B6B5-694FF172C469}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +98,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Movies\\MovieDetails.cshtml",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Movies\\MovieDetails.cshtml",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Movies\\MovieDetails.cshtml",
+              "RelativeToolTip": "MovieShopMVC\\Views\\Movies\\MovieDetails.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:45:53.999Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Program.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Program.cs",
+              "RelativeToolTip": "MovieShopMVC\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:18:33.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActorService.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Services\\ActorService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\ActorService.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Services\\ActorService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\ActorService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:23:57.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\ActorRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ActorRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\ActorRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ActorRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:16:35.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ActorController.cs",
               "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\ActorController.cs",
               "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\ActorController.cs",
               "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\ActorController.cs",
               "RelativeToolTip": "MovieShopMVC\\Controllers\\ActorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-31T20:47:37.897Z",
               "EditorCaption": ""
@@ -45,10 +177,216 @@
               "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Actor\\Index.cshtml",
               "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Actor\\Index.cshtml",
               "RelativeToolTip": "MovieShopMVC\\Views\\Actor\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-31T20:46:26.87Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActorModel.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Models\\ActorModel.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Models\\ActorModel.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Models\\ActorModel.cs",
+              "RelativeToolTip": "ApplicationCore\\Models\\ActorModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:51:46.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IActorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Repositories\\IActorRepository.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IActorRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Repositories\\IActorRepository.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repositories\\IActorRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:13:08.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IActorService.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Services\\IActorService.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IActorService.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Services\\IActorService.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IActorService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:22:27.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:55:29.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Repositories\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Repositories\\IGenreRepository.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repositories\\IGenreRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:52:32.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGenreService.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Services\\IGenreService.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IGenreService.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Services\\IGenreService.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IGenreService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:51:00.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:40:27.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\GenreController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:48:48.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwFAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:24:37.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Movies\\index.cshtml",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Movies\\index.cshtml",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\Views\\Movies\\index.cshtml",
+              "RelativeToolTip": "MovieShopMVC\\Views\\Movies\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:45:48.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:22:53.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\MovieRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA7wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:17:18.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:19:28.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T14:14:07.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieShopMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\appsettings.json",
+              "RelativeToolTip": "MovieShopMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-01T04:40:11.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "scripts.sql",
+              "DocumentMoniker": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\scripts.sql",
+              "RelativeDocumentMoniker": "MovieShopMVC\\scripts.sql",
+              "ToolTip": "C:\\Users\\adity\\Documents\\MovieShopAA\\MovieShopMVC\\scripts.sql",
+              "RelativeToolTip": "MovieShopMVC\\scripts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-01T04:30:25.416Z"
             }
           ]
         }

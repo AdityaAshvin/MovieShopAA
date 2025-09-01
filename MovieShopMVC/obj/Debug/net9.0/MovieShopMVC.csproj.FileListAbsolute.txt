@@ -458,10 +458,10 @@ C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\staticwebasse
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\MovieSho.8E6BA52B.Up2Date
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\MovieShopMVC.dll
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\refint\MovieShopMVC.dll
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\MovieShopMVC.pdb
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\MovieShopMVC.genruntimeconfig.cache
 C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\ref\MovieShopMVC.dll
+C:\Users\adity\Documents\MovieShopAA\MovieShopMVC\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
