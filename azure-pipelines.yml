@@ -1,40 +1,63 @@
-# ASP.NET Core (.NET Framework)
-# Build and test ASP.NET Core projects targeting the full .NET Framework.
-# Add steps that publish symbols, save build artifacts, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 trigger:
-- main
+  branches:
+    include:
+      - main
 
 pool:
-  vmImage: 'Default'
+  name: 'Default'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  solution: '**/*.sln'
+  publishProject: 'MovieShopMVC/MovieShopMVC.csproj'
 
 steps:
-- task: NuGetToolInstaller@1
-
-- task: NuGetCommand@2
+# 1. Install .NET SDK
+- task: UseDotNet@2
+  displayName: 'Use .NET 8 SDK'
   inputs:
-    restoreSolution: '$(solution)'
+    packageType: 'sdk'
+    version: '8.0.x'
 
-- task: VSBuild@1
+# 2. Restore
+- script: dotnet restore $(solution)
+  displayName: 'Restore NuGet packages'
+
+# 3. Build
+- script: dotnet build $(solution) -c $(buildConfiguration) --no-restore
+  displayName: 'Build solution'
+
+# 4. Test (skip if no test projects)
+- script: dotnet test $(solution) -c $(buildConfiguration) --no-build --logger trx
+  displayName: 'Run tests'
+
+# 5. Publish Web App to staging directory
+- script: dotnet publish $(publishProject) -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)/publish_output
+  displayName: 'Publish web project'
+
+# 6. Zip the published files
+- task: ArchiveFiles@2
+  displayName: 'Archive published files'
   inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/publish_output'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/webapp.zip'
+    replaceExistingArchive: true
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
+# 7. Publish artifacts (optional if you want to keep a copy in DevOps)
 - task: PublishBuildArtifacts@1
-  inputs: 
-    pathToPublish: '$(build.artifactStagingDirectory)'
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/webapp.zip'
     ArtifactName: 'drop'
-    publishLocation: 'container'
+    publishLocation: 'Container'
+
+# 8. Deploy to Azure App Service
+- task: AzureWebApp@1
+  displayName: 'Deploy to Azure App Service'
+  inputs:
+    azureSubscription: 'AshvinServerConn'
+    appType: 'webApp'
+    appName: 'movieshopAA'
+    package: '$(Build.ArtifactStagingDirectory)/webapp.zip'
