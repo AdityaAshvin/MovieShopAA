@@ -11,8 +11,8 @@ variables:
   solution: 'MovieShop.sln' 
   publishProject: 'MovieShopMVC/MovieShopMVC.csproj'
   AzureServiceConnection: 'AshvinServerConn'
-  appName: 'YourWebAppName' # Change this to your Azure App Service Name
-  resourceGroupName: 'YourResourceGroupName' # Change this to your Azure Resource Group Name
+  appName: 'MovieShopAA' # Change this to your Azure App Service Name
+  resourceGroupName: 'movieshopRG' # Change this to your Azure Resource Group Name
   
 stages:
 - stage: Build
