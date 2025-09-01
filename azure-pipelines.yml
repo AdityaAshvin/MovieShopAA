@@ -11,45 +11,81 @@ variables:
   solution: 'MovieShop.sln' 
   publishProject: 'MovieShopMVC/MovieShopMVC.csproj'
   AzureServiceConnection: 'AshvinServerConn'
+  appName: 'YourWebAppName' # Change this to your Azure App Service Name
+  resourceGroupName: 'YourResourceGroupName' # Change this to your Azure Resource Group Name
+  
+stages:
+- stage: Build
+  displayName: 'Build and package app'
+  jobs:
+  - job: BuildJob
+    pool:
+      name: 'Default'
+    steps:
+    # 1. Install .NET SDK
+    - task: UseDotNet@2
+      displayName: 'Use .NET 9 SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '9.0.x'
 
-steps:
-# 1. Install .NET SDK
-- task: UseDotNet@2
-  displayName: 'Use .NET 9 SDK'
-  inputs:
-    packageType: 'sdk'
-    version: '9.0.x'
+    # 2. Restore
+    - script: dotnet restore $(solution)
+      displayName: 'Restore NuGet packages'
 
-# 2. Restore
-- script: dotnet restore $(solution)
-  displayName: 'Restore NuGet packages'
+    # 3. Build
+    - script: dotnet build $(solution) -c $(buildConfiguration) --no-restore
+      displayName: 'Build solution'
 
-# 3. Build
-- script: dotnet build $(solution) -c $(buildConfiguration) --no-restore
-  displayName: 'Build solution'
+    # 4. Test (skip if no test projects)
+    - script: dotnet test $(solution) -c $(buildConfiguration) --no-build --logger trx
+      displayName: 'Run tests'
 
-# 4. Test (skip if no test projects)
-- script: dotnet test $(solution) -c $(buildConfiguration) --no-build --logger trx
-  displayName: 'Run tests'
+    # 5. Publish Web App to staging directory
+    - script: dotnet publish $(publishProject) -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)/publish_output
+      displayName: 'Publish web project'
 
-# 5. Publish Web App to staging directory
-- script: dotnet publish $(publishProject) -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)/publish_output
-  displayName: 'Publish web project'
+    # 6. Zip the published files
+    - task: ArchiveFiles@2
+      displayName: 'Archive published files'
+      inputs:
+        rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/publish_output'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/webapp.zip'
+        replaceExistingArchive: true
 
-# 6. Zip the published files
-- task: ArchiveFiles@2
-  displayName: 'Archive published files'
-  inputs:
-    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/publish_output'
-    includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/webapp.zip'
-    replaceExistingArchive: true
+    # 7. Publish artifacts
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Artifact: drop'
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)/webapp.zip'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
 
-# 7. Publish artifacts (optional if you want to keep a copy in DevOps)
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop'
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/webapp.zip'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+- stage: Deploy
+  displayName: 'Deploy to Azure App Service'
+  jobs:
+  - job: DeployJob
+    pool:
+      name: 'Default'
+    steps:
+    # 1. Download the artifact from the Build stage
+    - task: DownloadBuildArtifacts@1
+      inputs:
+        buildType: 'current'
+        downloadType: 'single'
+        artifactName: 'drop'
+        downloadPath: '$(System.DefaultWorkingDirectory)'
+      displayName: 'Download drop artifact'
+
+    # 2. Deploy the web app
+    - task: AzureWebApp@1
+      displayName: 'Deploy Azure App Service'
+      inputs:
+        azureSubscription: '$(AzureServiceConnection)'
+        appType: 'webApp' # or 'webAppLinux' if applicable
+        appName: '$(appName)'
+        resourceGroupName: '$(resourceGroupName)'
+        package: '$(System.DefaultWorkingDirectory)/drop/webapp.zip'
+
